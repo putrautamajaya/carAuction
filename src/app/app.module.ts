@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { TopNavigationComponent } from './components/top-navigation/top-navigation.component';
+import { DropdownAComponent } from './components/dropdown-a/dropdown-a.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    TopNavigationComponent
+    TopNavigationComponent,
+    DropdownAComponent
   ],
   imports: [
     BrowserModule,
