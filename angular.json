@@ -102,5 +102,7 @@
       }
     }
   },
-  "defaultProject": "car-auction"
+  "cli": {
+    "analytics": false
+  }
 }
